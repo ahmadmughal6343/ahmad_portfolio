@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhammad Ahmad</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        body {
+            font-family: 'inter';
+        }
+
+        .bar:hover::before {
+            content: "";
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background-color: rgb(185, 183, 183);
+            border-radius: 20px;
+        }
+
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-white">
+    <nav class="w-[95%] md:w-[90%] m-auto relative z-50">
+        <div
+            class=" fixed top-0 w-[95%] md:w-[90%] h-13 mx-auto my-3 p-3 md:p-8 bg-[#3e3d3d] rounded-full flex justify-between items-center shadow-[inset_0px_0px_10px_rgba(225,225,225,0.5)]">
+            <button
+                class="md:h-10 px-4 py-1 md:w-48 bg-black rounded-full shadow-[inset_0px_0px_5px_rgba(255,255,255,0.3)]"><a
+                    class=" text-[11px] md:text-base" href="#">Download Resume</a></button>
+            <ul class="text-[11px] md:text-base flex gap-3 md:gap-6">
+                <li class="relative"><a href="index.html">Home</a></li>
+                <li class="relative"><a class="bar" href="about.html">About</a></li>
+                <li class="relative"><a class="bar" href="projects.html">Projects</a></li>
+                <li class="relative"><a class="bar" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="relative top-[8em]">
+        <header class="relative">
+            <div
+                class="absolute inset-0 bg-[url(images/ahmad-image.jpg)] bg-cover bg-no-repeat md:bg-[length:100%_120%] bg-center blur-[3px] lg:bg-[url(none)]">
+            </div>
+            <div class="absolute inset-0 bg-[rgba(0,0,0,0.6)]"></div>
+            <div class="relative z-10">
+                <div class="lg:w-[85%] lg:mx-auto lg:mt-20 lg:flex lg:justify-center lg:items-start lg:gap-30">
+                    <div
+                        class="w-[85%] m-auto text-center lg:text-start flex flex-col justify-center items-center lg:block lg:w-[50%]">
+                        <h1 class="w-[100%] text-[32px] md:text-5xl font-bold my-5"><span
+                                class="text-[#5d5d5d] text-start block md:inline">Mr.</span> Muhammad Ahmad</h1>
+                        <p class="my-5 md:my-8 text-base md:font-regular md:text-lg md:leading-[22px]">"Hi, I’m Ahmad, a
+                            passionate web
+                            developer. I create clean, modern, and user-friendly digital experiences
+                            that bring ideas to life with creativity and precision."</p>
+                        <button
+                            class="w-30 h-12 md:w-auto md:h-auto md:px-9 md:py-3 bg-[#d9d9d954] rounded-[4px] my-10 md:my-12 shadow-[inset_0px_0px_5px_rgba(255,255,255,0.5)]"><a
+                                href="#">Hire
+                                Me</a></button>
+                        <ul class="flex items-center gap-10 md:gap-15 my-5 md:my-10">
+                            <li><a href="https://www.facebook.com/profile.php?id=61553615666588/" target="_blank"><svg
+                                        width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2067_229)">
+                                            <path
+                                                d="M11 0C4.92492 0 0 4.92492 0 11C0 16.1586 3.55168 20.4873 8.34284 21.6762V14.3616H6.07464V11H8.34284V9.55152C8.34284 5.80756 10.0373 4.0722 13.713 4.0722C14.41 4.0722 15.6125 4.20904 16.1044 4.34544V7.39244C15.8448 7.36516 15.3938 7.35152 14.8337 7.35152C13.0302 7.35152 12.3332 8.03484 12.3332 9.81112V11H15.9262L15.3089 14.3616H12.3332V21.9195C17.78 21.2617 22.0004 16.6241 22.0004 11C22 4.92492 17.0751 0 11 0Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2067_229">
+                                                <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg></a></li>
+                            <li><a href="https://www.x.com/" target="_blank"><svg width="22" height="22"
+                                        viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M16.7991 1.74524H19.8914L13.1355 9.46677L21.0833 19.974H14.8603L9.98616 13.6014L4.40908 19.974H1.31486L8.54094 11.715L0.916626 1.74524H7.29764L11.7034 7.57004L16.7991 1.74524ZM15.7137 18.1231H17.4272L6.36657 3.49894H4.5278L15.7137 18.1231Z"
+                                            fill="white" />
+                                    </svg></a></li>
+                            <li><a href="https://www.instagram.com/ahmadmughal1799/" target="_blank"><svg width="22"
+                                        height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2067_227)">
+                                            <path
+                                                d="M11 1.98086C13.9391 1.98086 14.2871 1.99375 15.443 2.04531C16.5172 2.09258 17.0973 2.27305 17.484 2.42344C17.9953 2.62109 18.3648 2.86172 18.7473 3.24414C19.134 3.63086 19.3703 3.99609 19.568 4.50742C19.7184 4.89414 19.8988 5.47852 19.9461 6.54844C19.9977 7.70859 20.0105 8.05664 20.0105 10.9914C20.0105 13.9305 19.9977 14.2785 19.9461 15.4344C19.8988 16.5086 19.7184 17.0887 19.568 17.4754C19.3703 17.9867 19.1297 18.3563 18.7473 18.7387C18.3605 19.1254 17.9953 19.3617 17.484 19.5594C17.0973 19.7098 16.5129 19.8902 15.443 19.9375C14.2828 19.9891 13.9348 20.002 11 20.002C8.06094 20.002 7.71289 19.9891 6.55703 19.9375C5.48281 19.8902 4.90273 19.7098 4.51602 19.5594C4.00469 19.3617 3.63516 19.1211 3.25273 18.7387C2.86602 18.352 2.62969 17.9867 2.43203 17.4754C2.28164 17.0887 2.10117 16.5043 2.05391 15.4344C2.00234 14.2742 1.98945 13.9262 1.98945 10.9914C1.98945 8.05234 2.00234 7.7043 2.05391 6.54844C2.10117 5.47422 2.28164 4.89414 2.43203 4.50742C2.62969 3.99609 2.87031 3.62656 3.25273 3.24414C3.63945 2.85742 4.00469 2.62109 4.51602 2.42344C4.90273 2.27305 5.48711 2.09258 6.55703 2.04531C7.71289 1.99375 8.06094 1.98086 11 1.98086ZM11 0C8.01367 0 7.63984 0.0128906 6.4668 0.0644531C5.29805 0.116016 4.49453 0.305078 3.79844 0.575781C3.07227 0.859375 2.45781 1.2332 1.84766 1.84766C1.2332 2.45781 0.859375 3.07227 0.575781 3.79414C0.305078 4.49453 0.116016 5.29375 0.0644531 6.4625C0.0128906 7.63984 0 8.01367 0 11C0 13.9863 0.0128906 14.3602 0.0644531 15.5332C0.116016 16.702 0.305078 17.5055 0.575781 18.2016C0.859375 18.9277 1.2332 19.5422 1.84766 20.1523C2.45781 20.7625 3.07227 21.1406 3.79414 21.4199C4.49453 21.6906 5.29375 21.8797 6.4625 21.9312C7.63555 21.9828 8.00937 21.9957 10.9957 21.9957C13.982 21.9957 14.3559 21.9828 15.5289 21.9312C16.6977 21.8797 17.5012 21.6906 18.1973 21.4199C18.9191 21.1406 19.5336 20.7625 20.1437 20.1523C20.7539 19.5422 21.132 18.9277 21.4113 18.2059C21.682 17.5055 21.8711 16.7063 21.9227 15.5375C21.9742 14.3645 21.9871 13.9906 21.9871 11.0043C21.9871 8.01797 21.9742 7.64414 21.9227 6.47109C21.8711 5.30234 21.682 4.49883 21.4113 3.80273C21.1406 3.07227 20.7668 2.45781 20.1523 1.84766C19.5422 1.2375 18.9277 0.859375 18.2059 0.580078C17.5055 0.309375 16.7062 0.120313 15.5375 0.06875C14.3602 0.0128906 13.9863 0 11 0Z"
+                                                fill="white" />
+                                            <path
+                                                d="M11 5.34961C7.88047 5.34961 5.34961 7.88047 5.34961 11C5.34961 14.1195 7.88047 16.6504 11 16.6504C14.1195 16.6504 16.6504 14.1195 16.6504 11C16.6504 7.88047 14.1195 5.34961 11 5.34961ZM11 14.6652C8.97617 14.6652 7.33477 13.0238 7.33477 11C7.33477 8.97617 8.97617 7.33477 11 7.33477C13.0238 7.33477 14.6652 8.97617 14.6652 11C14.6652 13.0238 13.0238 14.6652 11 14.6652Z"
+                                                fill="white" />
+                                            <path
+                                                d="M18.193 5.12615C18.193 5.85662 17.6 6.44529 16.8738 6.44529C16.1434 6.44529 15.5547 5.85232 15.5547 5.12615C15.5547 4.39568 16.1477 3.80701 16.8738 3.80701C17.6 3.80701 18.193 4.39998 18.193 5.12615Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2067_227">
+                                                <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a></li>
+                            <li><a href="https://www.linkedin.com/in/muhammad-ahmad-6b6967300/" target="_blank"><svg
+                                        width="22" height="22" viewBox="0 0 22 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2067_226)">
+                                            <path
+                                                d="M20.3715 0H1.62422C0.726172 0 0 0.708984 0 1.58555V20.4102C0 21.2867 0.726172 22 1.62422 22H20.3715C21.2695 22 22 21.2867 22 20.4145V1.58555C22 0.708984 21.2695 0 20.3715 0ZM6.52695 18.7473H3.26133V8.2457H6.52695V18.7473ZM4.89414 6.81484C3.8457 6.81484 2.99922 5.96836 2.99922 4.92422C2.99922 3.88008 3.8457 3.03359 4.89414 3.03359C5.93828 3.03359 6.78477 3.88008 6.78477 4.92422C6.78477 5.96406 5.93828 6.81484 4.89414 6.81484ZM18.7473 18.7473H15.4859V13.6426C15.4859 12.4266 15.4645 10.8582 13.7887 10.8582C12.0914 10.8582 11.8336 12.1859 11.8336 13.5566V18.7473H8.57656V8.2457H11.7047V9.68086H11.7477C12.1816 8.85586 13.2473 7.98359 14.8328 7.98359C18.1371 7.98359 18.7473 10.1578 18.7473 12.9852V18.7473Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2067_226">
+                                                <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg></a></li>
+                            <li><a href="https://www.github.com/ahmadmughal6343/" target="_blank"><svg width="22"
+                                        height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2067_225)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.0091 0C4.92135 0 0 4.95763 0 11.0909C0 15.9936 3.15328 20.1435 7.52772 21.6124C8.07463 21.7228 8.27497 21.3737 8.27497 21.0801C8.27497 20.823 8.25694 19.9416 8.25694 19.0233C5.19447 19.6845 4.55674 17.7012 4.55674 17.7012C4.06458 16.4159 3.33536 16.0855 3.33536 16.0855C2.33302 15.4061 3.40837 15.4061 3.40837 15.4061C4.52024 15.4795 5.10366 16.5445 5.10366 16.5445C6.08775 18.2337 7.67352 17.7564 8.31147 17.4626C8.40251 16.7464 8.69434 16.2507 9.00419 15.9753C6.56165 15.7182 3.9918 14.7634 3.9918 10.5032C3.9918 9.29128 4.42897 8.29976 5.12169 7.52862C5.01239 7.25324 4.62953 6.11456 5.2312 4.59054C5.2312 4.59054 6.16076 4.29669 8.25671 5.729C9.15407 5.48622 10.0795 5.36272 11.0091 5.36168C11.9387 5.36168 12.8862 5.49035 13.7613 5.729C15.8574 4.29669 16.787 4.59054 16.787 4.59054C17.3887 6.11456 17.0056 7.25324 16.8963 7.52862C17.6073 8.29976 18.0264 9.29128 18.0264 10.5032C18.0264 14.7634 15.4565 15.6997 12.9958 15.9753C13.3969 16.3241 13.743 16.9851 13.743 18.0318C13.743 19.5191 13.725 20.7128 13.725 21.0799C13.725 21.3737 13.9255 21.7228 14.4722 21.6126C18.8467 20.1433 22 15.9936 22 11.0909C22.018 4.95763 17.0786 0 11.0091 0Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2067_225">
+                                                <rect width="22" height="22" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <img class="hidden lg:block md:w-85 md:h-85 rounded-full shadow-[0px_0px_20px_white] animate-pulse"
+                        src="images/ahmad-image.png" alt="ahmad photo">
+                </div>
+            </div>
+        </header>
+
+        <section class="w-[90%] bg-[#d9d9d92e] m-auto my-10 md:my-15 p-3 md:py-6 md:px-5 rounded-xl">
+            <h3 class="text-2xl font-bold leading-[40px] md:leading-auto md:my-1.5">About Me</h3>
+            <p class="text-justify">I’m on my journey to becoming a full-stack web developer and have built a strong
+                foundation in "HTML, CSS, and Tailwind CSS", which I use to create responsive and modern websites. I
+                also have experience with "Git and GitHub", helping me manage code and collaborate effectively.
+                Alongside this, I’m learning "JavaScript" to add interactivity and functionality to my projects. I’m
+                motivated to keep improving my skills step by step and aim to grow into a well-rounded developer capable
+                of building complete web applications.</p>
+        </section>
+        <section class="md:flex md:flex-warp">
+            <div class="w-[90%] md:w-[40%] bg-[#d9d9d92e] mx-auto my-5 p-8 rounded-xl">
+                <h3 class="text-xl  font-bold mb-2">Education</h3>
+                <ul class="list-disc leading-[30px] pl-4">
+                    <li>Matriculation (Science Group)</li>
+                    <li>Intermediate (I.C.S)</li>
+                    <li>Bachelor’s (planning, BS Computer Science)</li>
+                </ul>
+            </div>
+            <div class="w-[90%] md:w-[40%] bg-[#d9d9d92e] mx-auto my-5 p-8 rounded-xl">
+                <h3 class="text-xl  font-bold mb-2">Certificates & Courses</h3>
+                <ul class="list-disc leading-[30px] pl-4">
+                    <li>HTML & CSS – [Institute/Ehsas Lab]</li>
+                    <li>Tailwind CSS – [Institute/Ehsas Lab]</li>
+                    <li>Git & GitHub – [Institute/Ehsas Lab]</li>
+                    <li>JavaScript Basics – [Platform/Youtube]</li>
+                </ul>
+            </div>
+        </section>
+        <section class="w-[90%] bg-[#d9d9d92e] mx-auto my-10 md:my-15 p-3 md:p-8 rounded-xl">
+            <h3 class="text-xl text-center font-bold mb-8">Skill & Technologeis</h3>
+            <div class="flex flex-col xl:flex-row items-center md:justify-around md:gap-30 ">
+                <img class="h-50 md:h-80 md:w-90 shadow-[0px_0px_10px_rgba(255,255,255,0.5)] rounded-4xl"
+                    src="images/skill-removebg-preview.png" alt="">
+                <div>
+                    <div class="md:w-[50%] flex items-center justify-start gap-6 my-5 md:mx-3">
+                        <p><svg class="bg-[#d9d9d92e] p-3 w-20 h-20 rounded-xl shadow-[inset_0px_0px_10px_rgba(255,255,255,0.3)]"
+                                width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="65" height="65" fill="url(#pattern0_4071_64)" />
+                                <defs>
+                                    <pattern id="pattern0_4071_64" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4071_64" transform="scale(0.00666667)" />
+                                    </pattern>
+                                    <image id="image0_4071_64" width="150" height="150" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <div>
+                            <p class="font-bold my-3">HTML</p>
+                            <div class="w-55 h-4 bg-white rounded-xl">
+                                <p
+                                    class="text-[10px] text-center bg-linear-to-r/hsl from-indigo-500 to-teal-400 rounded-xl w-[100%] h-[100%]">
+                                    100%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[50%] flex items-center jjustify-start gap-6 my-5 md:mx-3">
+                        <p><svg class="bg-[#d9d9d92e] p-3 w-20 h-20 rounded-xl shadow-[inset_0px_0px_10px_rgba(255,255,255,0.3)]"
+                                width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="65" height="65" fill="url(#pattern0_4071_32)" />
+                                <defs>
+                                    <pattern id="pattern0_4071_32" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4071_32" transform="scale(0.00666667)" />
+                                    </pattern>
+                                    <image id="image0_4071_32" width="150" height="150" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <div>
+                            <p class="font-bold my-3">CSS</p>
+                            <div class="w-55 h-4 bg-white rounded-xl">
+                                <p
+                                    class="text-[10px] text-center bg-linear-to-r/hsl from-indigo-500 to-teal-400 rounded-xl w-[98%] h-[100%]">
+                                    98%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[50%] flex items-center justify-start gap-6 my-5 md:mx-3">
+                        <p><svg class="bg-[#d9d9d92e] p-3 w-20 h-20 rounded-xl shadow-[inset_0px_0px_10px_rgba(255,255,255,0.3)]"
+                                width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="65" height="65" fill="url(#pattern0_4071_83)" />
+                                <defs>
+                                    <pattern id="pattern0_4071_83" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4071_83" transform="scale(0.00666667)" />
+                                    </pattern>
+                                    <image id="image0_4071_83" width="150" height="150" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAALPUlEQVR4Ae2daYwcVxHHDV8IdzgDiMNAOBKRYLPeqbcOAoJQkCMOcQQB4TRfCEe4wQKEI0CgJJwi3CIYwpWp6tmt1+vFxoQVAUSIiQAbMEfAhoTLQJSDQ4Bg2erZ8a6zPbOzM3287v5Himbc0/3eq1/Vdr+uV1Vvwwb8BwIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAIgAAKNINDa3Xk4xXK2U34zefkkeb6CVH7rvCys8f9Bp9wm5XdRLK9sKZ/jZoQaAQ1CribQ8p0nOi/vJpUr1zCctQwr/XeVm8nLtFM5j+ai+68eAY7UhsCm6ekTW7G8yakczsWYBt/drmmpvOr0vXvvWBugTRdkStsnO5WPOc//LMGgjr+jKd9CXj68dXf0oKbrpbLym/JImUs3pj53MlL+Ms20T60s4KYNfOP8/Amk/J5QDerW4yIvQqonNU1PlZJ3cnd7k1P+5a2VF/q/yfNNi2+h2ysFuymDbcXy8tANaO3xcbx5rn2vpugseDmdyvvXVtqaPqnjJ9p95kZ590Oe/0ganRk89LoP0Hm5PG9ll9E+eX5F3XUXrHzk+dIylF5Yn8oXBAu/rgMjlYsKU3BJj8Ul+fxEHN+hrnoMSi6Ko2c3xKiSeR95/haMK2cTnIjlkeTl700yrK6s/PWc0Ta7eVL+WfOMqvtGS8rabO3nJL3z8oGmGtUxuVW+c9rs7N1yQpxJs61ZeXImDRXRyJTvPP4Y3HIn06X7u8jLL0J1pLqZ6EmkckkRNpFJH6T8AxjWCiev8oHQ7lwUy8NI+Uan0dMyUXrejZCXZw1rVOT5a4krQvlci+Z009MbbXw0N3cXC6GZnOWtzkcvIS8XO+WvDttuoOcdCiWQcHJm5gGkcp1xqkzcmfPy00GKJS8/dp5fPbWnfff1GvkZqndu+ehlTuXbg/oI9bdEmbOdU9Yrd5bnT+5u36e3+E+eZ7JsO7e2XCxP7adUUtlvv2fVuZvtnJJbuHKu80K+oaxY+4m56YfanK+no1YcPSMrfeTajlPZ1xt075M8/83uMnl1vNj+G3t9Veqz4LlNd6LONy4z4r/mpZNM2zVn6PKge74cuarl2w/OtKOUxqZm2qdV0WfW8vzWFHEyP0Re3rFKNzG/L/OO8miQPH9w5eBJ5TN59NOvTYtGdV4+u3IMVfhOKt+0x3o/ucY5PjkbPYRUrkrjUJlYfuf5aE+AlpfXjQNknGtdLOf3xlGtT/50Vm+N3RwCuaSf/JVZFWh5fkpPCIr5peMYRhbXtrw8rzeeqn2aw9L56DGjcDAvOnn50loyk4/cKO0Xfg15+XwiTCznF955nw7NwNcCHPLvyZxRZVeSX+l5WyvuPHpiT3RfE3drp3Nvm1cuGdIO5+WLzvP1w8hDXr7SB1l4h00o8vLe0EZmkZ3DwG7SORO+/cDQ9JQ6HpsgOs9zGxYWbpN6QskHLau5SYYzUNY42lmyOobvvhW3p2wJZvgrij/TXusHAs/VIbpizbDcfg4VT74BPdqjusnGRb792AaouRwRbY2ykcaFRI/8Dc6ymBc90f9rkIHNb1hYuG3+ZNHDhiRCotz5TiEBiLbgPBHH94TKCyRAPnphve9afH1WnvwC1VKPriyQ0NLk62ZgJtMWbT+iHlqqqBT2qCDPe+tiXOaxx50qIGPsLp0E43MaaQ5mfyAT+9p3DQgrhmIEnOdtpPKXKt69yowogfUMQeDU+fadyMsOp3JzFQzMUvptQXoI0XBKCAQs6cBqjwZrXCrXWl2MEFhhDCMQSMKevVxGyv8OwcjsDpUkQQS66D8C4mZfYulqrZhf5DzHRRsYKf/ExdFOuBBqboNWOXmxFv1bFif738vRyK52Xt4GY6q5MQ0Sz6I7F/1Hz0326VFW5+Ua5/k3i/v9/GO14fENTuVa5+VqUtljocRJOHIc7SSVF1jOYWWykwdB6feb+UOcRmdYint3Lxtmq8lgeYKrYS37f8jzH0jlG+T5o7aRUpIiH/NZFk7bry8crzGBzar3s1Be8nKZ83JkkPGM8dtBq9VgGy/VGCVEMwJJySHl9hjGMpKXOPETqeyyjQSgiRoRWNxZ68Xk5UeFG1RKuAp5+a6lbNUIb/NEsVgkUvl9CAaVMoYjlvzQPK1UWOIk6aEiBdGSUBblcyuMuxlDt9fglLvDaHOjlEdZfm3znC2tNENLFZLSMmdzduLlbpxWztB8RBXCXu+hmse2Vw4wvzvKsv8q7z4sjR+F+Uu22WQ+5fmmvJVdePvKB+BoLcm4SOX0pBpuoXOhQu9cv7KShyXhbWa3SR0FlT8Vficp2IiTXU5jPquZWi5Y6pPn5m63VsXimhncfypTo7xgW8i0OyvNWDPDGfKNk7dlChKNLRNoxdHzm2lUspCEpsT8hGUa+JYJAfNV2ZyjsYblZYGU/9VSPicToDk1YqWe7G09p+azb9Z5mW+yUa2UPeR1xu72LnpS9haQQ4vk+ekrweK73b1kew6ox2rSqXzcgiTHaqTIi53ygaGMSeUwKX+OlN9gOxRsme08qrfVmT1Kk9DaWM5OsoFVdpHKz4dqt2A3w7Bjst0qitTDoL6c8gXJuJUvHHReML/Z+tlaoG3n+EmNHjfKoCd9NOlUPlJVZysFsPMCeX5tT0eVCWjstyeg7cFsu0RYJskoBpV2Dam8Jj0xoDiPe09B6/m0MOs0eYo45pTfvmKsB4voc+w+ukkOKUpV2ZdXmMlSdeQ8052G9FulyD3gkWyT5iIXr6fa7duTMq8wqoWQHs0Djc+KwK8cuH23u8rAizL6sZKxXcoHisjPS7a6Swn3rkRVvVanc4/jjYqPFr2FBWl0pqvgmqTNeTL6+1rVTPJilHbnVNm16uQQD6ys/GvzLEvbKmOc3SBCOXi8ka/vMVXStUeyDBxceonqu6vsFpXNZehn3X2S5+8nCglgA+tN09MnVjhC1XIct1vZovUqwWLCkhT7bkZz37mhze/W23Yp59umkmZU5mcKJeDNjIu8/LCku09fpa5nPJbq7pQvtJQ4q0tqG533dtsw5jbVSNLlVC5az0pHZepW2Y5W5PnPoW20Y85W5+XQepRZ93PJ8ydKufuM0qk5PKfidmuUa/O+xoxr5UbWdTecQfJZuUl7ycqbeWbtU+BRk8mEXuXwIOhN+M2qxmSmdDTUJZDMT1Sua4IBpclInq+ALeREoMKuiDFfBvholktpOamn2s1aacWhoy/SHIsVO0bK/3WIZC3GaM24qu6KSHvcpR4LaD/sYrRbci+Jn0tlf6oyKnZX6icDxdE7S8bc3O5J5VP9FFPl46TyoeZqNRDJF/Men+OUb6myIfXGbptpWsRtIGgxjKVlqSouXh97Y7QCv9gVIkBbtoVfV0bd0wzmdKSy3/44AsSKIfUIdKsMypW9x0vIn92Qb9nRGzs+K0DACtsGXBfVQosvheOzAoaUNkSLFV+MSj0vlIXspJKgl4vLCqRMY4RjYxKwbT+W4qMKX9BOEiGUn7lxfv6EMcXA5SETsARb5+Vyp/y7POZgSd0L5S/YVm1FZvOEzLxxYzMvvm2XYkkRSw5Xq1txaJjtdsnzr23P5O4eP/J6C0GylLbGQYTAIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACIAACDSXwf/EYZhaLPlFiAAAAAElFTkSuQmCC" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <div>
+                            <p class="font-bold my-3">Tailwind CSS</p>
+                            <div class="w-55 h-4 bg-white rounded-xl">
+                                <p
+                                    class="text-[10px] text-center bg-linear-to-r/hsl from-indigo-500 to-teal-400 rounded-xl w-[90%] h-[100%]">
+                                    90%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[50%] flex items-center justify-start gap-6 my-5 md:mx-3">
+                        <p><svg class="bg-[#d9d9d92e] p-3 w-20 h-20 rounded-xl shadow-[inset_0px_0px_10px_rgba(255,255,255,0.3)]"
+                                width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="65" height="65" fill="url(#pattern0_4071_70)" />
+                                <defs>
+                                    <pattern id="pattern0_4071_70" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4071_70" transform="scale(0.00666667)" />
+                                    </pattern>
+                                    <image id="image0_4071_70" width="150" height="150" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAL6klEQVR4Ae2da6gkRxXHJ66I+IrxhYYgUYKG1Xtvn7piiIhsFJNsNttVs3AVjagRV5MIouILP4hf/BBQ4wNF0YCKoEk0iYrJBxF8IH6QJL4iQQOrxrghJlb13L27H8SMWzNTc3v69vTtnq7qU9V1Llxquqe66tQ5v/53d01X1WBAf6UeGB/dfJrk7Fol2B1KsAeVYGMp2Gkl2D2Ksy/LdOOy0gNpJ3lgmQeylF15Fqq/a5iq/iWHH+6kcP6ycmg/eWDigfGhC5+qBNxcBdPe70Aqzt5MLiQPlHpgvHXwKUqwn+0Fp1q1dvPD9aUF0854PTCBisPdu5DUhamYj+CKl6JCy8eHBk9WVqAykBFcBRfHt6mh0jfg7ZXKQGVSgis+mmYtdgcVwRUvVFuDA26UykBlUlKuaCAbbw0OKA632b/8GZiKKcHVe7jGg8GTuoXKQEZw9RYuDZXk7DvdKZWByqQEV+/gwoeK4OojVOfgKpWByqSkXMFDNh4Mzmn+258BwGVKcAUNl59QGWAJriDhUmmyhXejbuCpTjOe3BCkc2M3Wgn4iu9wKUHKFSSnBFeQYQvDaIIrjDgFaSXBFWTYwjCa4AojTkFaSXAFGbbujJ4MfODwE3WUvb5prQRXU49Fkn86mmY28IGzM6PhxmubNp3gauqxnudfgGo27k9ytpPx9UuaNp3gauqxnuYvg8p0gEoB2wRXTwPvsllVUOXhUlevs6Z2kHI19VhP8teBahcupgiungTeZTOaQJWH6xRfW2tqFylXU48Fmn8VqAxcSsDjo6ObFzdtOsHV1GOB5W8/l4J+ZQUeJbgCC7xLc+3NpTCFK0vZRU3tJeVq6rEA8ivdo77P3FSNvufs5EpwcfZppf8FvOHM1Zsv1q5TR9ZeqiddU5x9QnH4aSM7bLZpXha9z7Uv0naVqvD2JmcnpUgu3NeIhhmU2LhcCvgbLmAE19KwOYXK9NALeMgFXOOtg8+wrrJzRSqcIEv3E1ylcNmdSqgqGHDi9LH1C0qNaLlTz01KytXSibYO70Kp9gYbTpy66uALbbXBlKOHm3Uz2UjliUMzC+qAKAF37Q18leNsfQd/cQKXnm1ZsH/htMn4JuLLIo5SGcfPUg5/3T4MzzeKYytVnL0XFyzdvkjhwlOqRbikYJ+3BVS+HCVAElx5jzj+7IVS5Z6sRsOEu2iyEuxWfLAiUi5flMoEfXz5+tOdgJXCdaYO/LTHl0XflEoHW3J42AVUusyMsyvwgcpf9nsKF34HYt7Js8+c3esKLCmSxC+wenZZ9FGpTMD1ejkOwTpk6vEr7YlyScF+7Jdjc8rF2RlXYGU8eau37Q65K8JnpcoHfDSES13ApTh8NV+Pf58DVS7J4Uf+OTOnVvMuh+RGF2BlHD7pf/sDgisUpTJBl4Kp8dbmuU7gEuwmU4+/aSBwhaNUefVyo1oa1kzAZ/2FauaDFK5zcWJZKTM0pVoMNvwvExuvtuKIkkK8f82ZwxMyhXeVmI6/K0yl2lUtKeAhFz9Im8hIDl9chHm3bo/2v8fYi57aX+8Pz+G6X2ubw0FXTiXlauBZKeBOj864ysXB69gpOcuUYB/Vq9g3cEPtrPhvmdY6cXGVq29QLYDH2QO1aWmY0f8+rgl83cPlfhHJWmdVa3VaAGnerzWrm8MjdXg5213xAXVk7bw6eU0ef1fMyPm96xv6KKDSkNUGC74pOfyJ4DKnzQppNFA1BEsr36pw+bWAVE6xjIK7Vq6ooFoBrBZwIa+jWAKTgcqkruCKDqoVwSK4GlwGo4SqBVgEVw24ooWqJVht4MJZs7rG5dDWZTFqqCyAtTJcW4MDvYZLCXaHdk60/w26G6p8JDn7fXbFK55T4wKxkEUJdsvkWJ58TqXJcT2rTZYm1ygOH1MCfqAnlauqt5Pv0uT4gtFVG9ErlTmZLIGlA7xKV0RVjMx3GYe3K8Ee6wQi45d82uRpUXF2O5qheaOxP1sEawoX+8Po6ObzDBS20tHw4ucqMVulA89n1T//TCU24stfPjCWwZqerPBnV6/mePD7YzlcSsA3SKlyJ5UTsKaXRRfKpRUQe1i/Hpm0oMRn30O6lqDKQaWVyxFY08si3O9KuSSH+zFjqQfqTuCavlLMTmIa42XdDsGatJezB1wo1yiFFNWfZnS5FMk7UQ3J39f49Nk1WPppUcDPFy4dljZ0NwVmTDMBhwf4UxsWLkG+wNUBWIrD1y2xtFCMFOxTmGBN2iU5+weqEb6AVLSjA7Bczc014slrMGMqBfxOP0nE27te1fYOwJrf6C7oTfsNKZJn48YVHh8ozv6Na4SnYHcA1s6xzRe1x6i8BL0wKGZcNVj3Yhrgbd0dgDUabrysHIv2ezH9qlfqGOjJXTGN8LbubsBqvEh6HeR0NwamX/Xg5YFKkzdiGuFt3R2ApUf41AGlaZ6MJ1eh+pUn757YLDn8AtWQqptorO86ActNP5YScDNePEHqtYUmYKmj6y/BvtnDc8SSh4cOwNJt3h6uv7KpIlXl15dBydkOmj85fHzBPr+nNlwSfJdq1hFYejT5QiBabkgOX8CCSnL4Vqn5k1G9LoMVUtkdgaUhOPsTzLA0IA136qmYFGf/RQGLw23jrcGBpSYTXDN17BasUdt1FMfpy5+pp2LyEipDG8Hl9rWZsuDrn9ZWWRhdx2wnhfPR+iP3UyoDlUmjh6tDxTKgSQ6n9NsmJgZ1Uv17I+LAilvq2LgnT9RwIYBlAFOCPZhx9r5lo3v04/xomLxDCbgvd0zXv/muBpWhLFq4cMGaQyI5/Fq/tzX/5+yXiDBN7eLwXcNHqzRKuDwBCx2i4pN803uq/ciLDi4Ca66ac7htQ2WgiwouAmsRLFdQRQcXgbULlmuoooKLwDI36tU96gYKW2nvL4sElh5b2S1UBs5ewxU7WFhQ9R6umMHChqrXcHH2PdO+qlQK+NL8cbzY5xPm9q1V7e38u95cFvXgkhRe1cSBKmUf6QlcfkFlghA6XPqlu1XX0Mn4+iWKw3+CBcyXy5+BqZiGCpdeFF0vRVJsT5NtPQBVCnY6OLh8h8oEITS4pGB/XFWpTJtNqsTGmwIDq91bCqbhXaUhwTUablgd3+fB1I27veZVDxChKFUR2jDggruKdrfdHg3h0gBUKyylKgbFd7gywd5WtNnGtl6t1Vu4QlWqYmC8hYvDE+OtzXOL9trY1nNEeQlWX6AyQfIRLj2qxdhnO1UCrvcOrL5BZYLmHVwcfmtss51maXLEK7D6CpUJnGdw3WPssp1mKbvSG7D6DpUJni9wSQ7/NDbZTr2Z4jwWqEwAfYFrfPiiZxmbbKZKJDd6oFh+/vZn09FlZfkAVybgLWW2td2H3t0Qm1IVA4YOF4e7iza13caetVgvfdK2Db04Hhuu7RReZ9ORUrBfoV0GY1eqYiBR4TLLdBSNWmFbpuwYGlSkVOURw4QrE+ymcqvq7z19bP0CJUBigKVXGNGLmNa3NrKcmHDJFD60qru3h+svQJtKSMD3V7U7quMkZx/EOOtndX6t6btZ+u1RyeFhHJsJqkYnBy5c8KjiyYfVkbXzqozW73HpN09xgNIzDxJUVfFZ+h0uXNMpI/W9i15NK/+vBHxGCTiBB5SecZDdvtRx9MX+HsC850IFp+LNT7pR35+bWjkIrt3pyAmqWsjUz0RwTRYqpy6F+sjUzxkzXKRU9TlZKWeMcBFUK6HS/KCY4CKomvPR6ogY4CKoWiGy+sF9hougWp0LK0f2ES6Cygoa7QvpE1wEVXserJbQB7gIKqtI2CssZLgIKnscOCkpRLgIKico2C80JLgIKvvxd1piCHARVE4RcFe4z3ARVO7i3knJPsJFUHUSeveV+AQXQeU+3p3W4ANcBFWnIe+uMky4CKru4oxSEwZcBBVKqLuvtEu4CKru44taYxdwEVSoIcar3CVcBBVeXL2o2QVcBJUXocU3wiZcBBV+PL2ywAZcBJVXIfXHmDZwEVT+xNFLS1SaHG86Z4Pk8G0vG0NG+eUBPSepEnDfvoBxeCTj8H6/rCdrvPeATDcu0zMQ7wGMs99kaXKN9w1ANPD/rHn8Ac36D50AAAAASUVORK5CYII=" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <div>
+                            <p class="font-bold my-3">Git</p>
+                            <div class="w-55 h-4 bg-white rounded-xl">
+                                <p
+                                    class="text-[10px] text-center bg-linear-to-r/hsl from-indigo-500 to-teal-400 rounded-xl w-[92%] h-[100%]">
+                                    92%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-[50%] flex items-center justify-start gap-6 my-5 md:mx-3">
+                        <p><svg class="bg-[#d9d9d92e] p-3 w-20 h-20 rounded-xl shadow-[inset_0px_0px_10px_rgba(255,255,255,0.3)]"
+                                width="65" height="65" viewBox="0 0 65 65" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="65" height="65" fill="url(#pattern0_4071_46)" />
+                                <defs>
+                                    <pattern id="pattern0_4071_46" patternContentUnits="objectBoundingBox" width="1"
+                                        height="1">
+                                        <use xlink:href="#image0_4071_46" transform="scale(0.00666667)" />
+                                    </pattern>
+                                    <image id="image0_4071_46" width="150" height="150" preserveAspectRatio="none"
+                                        xlink:href="data:image/png;base64,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" />
+                                </defs>
+                            </svg>
+                        </p>
+                        <div>
+                            <p class="font-bold my-3">JavaScript</p>
+                            <div class="w-55 h-4 bg-white rounded-xl">
+                                <p
+                                    class="text-[10px] text-center bg-linear-to-r/hsl from-indigo-500 to-teal-400 rounded-xl w-[25%] h-[100%]">
+                                    25%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-[90%] mx-auto my-20">
+            <div class="bg-[#d9d9d92e] w-[100%] mx-auto rounded-xl">
+                <h2 class="text-2xl font-bold text-center pt-4 md:pt-8">My Projects</h2>
+                <div class="p-9 grid grid-cols-[repeat(4,auto)] gap-13 snap-x  overflow-x-scroll no-scrollbar">
+                    <div class="w-76 md:w-125 bg-[#d9d9d92e] p-2 m-3 rounded-xl snap-center">
+                        <img class="rounded-md h-40 md:h-65 w-[100%]" src="images/projec-01.png" alt="">
+                        <h5 class="text-center font-bold my-2">Crypto Agency</h5>
+                        <details>
+                            <summary>Details</summary>
+                            <p class="text-sm p-2">A platform offering crypto marketing and Web3 solutions to help
+                                businesses grow in the blockchain space.</p>
+                        </details>
+                        <p class="w-[40%] md:w-[30%] mx-auto grid items-center"><a
+                                class="text-center bg-black p-2 text-[12px] rounded-4xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.3)]"
+                                href="https://ahmadmughal6343.github.io/Crypto-webpage/" target="_blank">View
+                                Project</a></p>
+                    </div>
+                    <div class="w-76 md:w-125  bg-[#d9d9d92e] p-2 m-3 rounded-xl snap-center">
+                        <img class="rounded-md h-40 md:h-65 w-[100%]" src="images/projec-02.png" alt="">
+                        <h5 class="text-center font-bold my-2">Jadoo Travels</h5>
+                        <details>
+                            <summary>Details</summary>
+                            <p class="text-sm p-2">A platform that offers trip planning, tour packages, and booking
+                                services to make travel easier and more enjoyable for customers.</p>
+                        </details>
+                        <p class="w-[40%] md:w-[30%] mx-auto grid items-center"><a
+                                class="text-center bg-black p-2 text-[12px] rounded-4xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.3)]"
+                                href="https://ahmadmughal6343.github.io/Travel_Website_Page/" target="_blank">View
+                                Project</a></p>
+                    </div>
+                    <div class="w-76 md:w-125  bg-[#d9d9d92e] p-2 m-3 rounded-xl snap-center">
+                        <img class="rounded-md h-40 md:h-65 w-[100%]" src="images/projec-03.png" alt="">
+                        <h5 class="text-center font-bold my-2">One Product Design</h5>
+                        <details>
+                            <summary>Details</summary>
+                            <p class="text-sm p-2">A sleek, conversion-focused Shopify store built to highlight and sell
+                                a single product with an engaging layout, clear call-to-actions, and optimized checkout
+                                flow.</p>
+                        </details>
+                        <p class="w-[40%] md:w-[30%] mx-auto grid items-center"><a
+                                class="text-center bg-black p-2 text-[12px] rounded-4xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.3)]"
+                                href="https://ahmadmughal6343.github.io/one-product-design/" target="_blank">View
+                                Project</a></p>
+                    </div>
+                    <div class="w-76  md:w-125  bg-[#d9d9d92e] p-2 m-3 rounded-xl snap-center">
+                        <img class="rounded-md h-40 md:h-65 w-[100%]" src="images/projec-04.png" alt="">
+                        <h5 class="text-center font-bold my-2">Portfolio</h5>
+                        <details>
+                            <summary>Details</summary>
+                            <p class="text-sm p-2">A personal portfolio website designed to showcase skills, projects,
+                                and achievements with a clean, modern layout and easy navigation.</p>
+                        </details>
+                        <p class="w-[40%] md:w-[30%] mx-auto grid items-center"><a
+                                class="text-center bg-black p-2 text-[12px] rounded-4xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.3)]"
+                                href="https://ahmadmughal6343.github.io/Portfolio/" target="_blank">View
+                                Project</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-[90%] mx-auto mt-15 mb-15 bg-[#d9d9d92e] py-6 rounded-2xl">
+            <h2 class="text-2xl font-bold text-center p-3 mb-5">Our Team</h2>
+            <div class="flex flex-col justify-center items-center">
+                <div
+                    class="bg-black outline-2 outline-gray-600 w-60 h-80 m-6 flex flex-col justify-between items-center rounded-2xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.7)]">
+                    <div
+                        class="w-[100%] h-[50%] bg-[#d9d9d92e] grid justify-center items-center rounded-2xl shadow-[inset_0px_0px_3px_rgba(255,255,255,0.3)]">
+                        <img class="w-32 h-32 rounded-full outline-3"
+                            src="https://i.pinimg.com/736x/29/db/41/29db41559392929eb786e412a9dbfff3.jpg" alt="">
+                    </div>
+                    <div class="text-center p-3 flex flex-col justify-center items-center gap-1">
+                        <h3 class="font-bold">Name</h3>
+                        <p class="font-light text-sm text-gray-400">Team Leader</p>
+                        <p class="text-gray-400">Full Stack Developer</p>
+                        <p class="m-2"><a
+                                class=" bg-black shadow-[inset_0px_0px_10px_rgba(255,255,255,0.5)] p-2 rounded-lg text-sm"
+                                href="#">View Work</a></p>
+
+                    </div>
+                </div>
+                <hr class="border-1 w-[100%] opacity-[0.5] md:hidden">
+                <div class="w-[80%] my-5 flex flex-col md:flex-row md:flex-wrap md:justify-around lg:justify-between items-center">
+                    <div
+                        class="bg-black outline-2 outline-gray-600 w-55 h-70 m-3 flex flex-col justify-between items-center rounded-2xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.7)]">
+                        <div
+                            class="w-[100%] h-[50%] bg-[#d9d9d92e] grid justify-center items-center rounded-2xl shadow-[inset_0px_0px_3px_rgba(255,255,255,0.3)]">
+                            <img class="w-28 h-28 rounded-full outline-3"
+                                src="https://i.pinimg.com/736x/29/db/41/29db41559392929eb786e412a9dbfff3.jpg" alt="">
+                        </div>
+                        <div class="text-center p-3 flex flex-col justify-center items-center gap-1">
+                            <h3 class="font-bold">Name</h3>
+                            <p class="text-gray-400">UI/UX Desginer</p>
+                            <p class="m-2"><a
+                                    class=" bg-black shadow-[inset_0px_0px_10px_rgba(255,255,255,0.5)] p-2 rounded-lg text-sm"
+                                    href="#">View Work</a></p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-black outline-2 outline-gray-600 w-55 h-70 m-3 flex flex-col justify-between items-center rounded-2xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.7)]">
+                        <div
+                            class="w-[100%] h-[50%] bg-[#d9d9d92e] grid justify-center items-center rounded-2xl shadow-[inset_0px_0px_3px_rgba(255,255,255,0.3)]">
+                            <img class="w-28 h-28 rounded-full outline-3"
+                                src="https://i.pinimg.com/736x/29/db/41/29db41559392929eb786e412a9dbfff3.jpg" alt="">
+                        </div>
+                        <div class="text-center p-3 flex flex-col justify-center items-center gap-1">
+                            <h3 class="font-bold">Name</h3>
+                            <p class="text-gray-400">Frontend Developer</p>
+                            <p class="m-2"><a
+                                    class=" bg-black shadow-[inset_0px_0px_10px_rgba(255,255,255,0.5)] p-2 rounded-lg text-sm"
+                                    href="#">View Work</a></p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-black outline-2 outline-gray-600 w-55 h-70 m-3 flex flex-col justify-between items-center rounded-2xl shadow-[inset_0px_0px_5px_rgba(255,255,255,0.7)]">
+                        <div
+                            class="w-[100%] h-[50%] bg-[#d9d9d92e] grid justify-center items-center rounded-2xl shadow-[inset_0px_0px_3px_rgba(255,255,255,0.3)]">
+                            <img class="w-28 h-28 rounded-full outline-3"
+                                src="https://i.pinimg.com/736x/29/db/41/29db41559392929eb786e412a9dbfff3.jpg" alt="">
+                        </div>
+                        <div class="text-center p-3 flex flex-col justify-center items-center gap-1">
+                            <h3 class="font-bold">Name</h3>
+                            <p class="text-gray-400">Backend Developer</p>
+                            <p class="m-2"><a
+                                    class=" bg-black shadow-[inset_0px_0px_10px_rgba(255,255,255,0.5)] p-2 rounded-lg text-sm"
+                                    href="#">View Work</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-[90%] m-auto my-10">
+            <h2 class="text-2xl font-bold my-10">Contact Me</h2>
+            <div class="flex flex-col md:flex-row justify-between items-center gap-7">
+                <div
+                    class="w-[100%] md:w-[40%] h-15 mx-auto md:mx-0 p-3 rounded-sm flex items-center justify-center gap-7 bg-[#d9d9d92e]">
+                    <svg width="55" height="43" viewBox="0 0 53 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M50.25 7.25C50.25 4.6375 48.1125 2.5 45.5 2.5H7.5C4.8875 2.5 2.75 4.6375 2.75 7.25M50.25 7.25V35.75C50.25 38.3625 48.1125 40.5 45.5 40.5H7.5C4.8875 40.5 2.75 38.3625 2.75 35.75V7.25M50.25 7.25L26.5 23.875L2.75 7.25"
+                            stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <a class="xl:font-bold"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=ahmadmughal3188@gmail.com"
+                        target="_blank">ahmadmughal3188@gmail.com</a>
+                </div>
+                <div class="w-[100%] md:w-[50%]">
+                    <ul class="flex justify-between items-center ">
+                        <li class="m-2"><a href="https://www.linkedin.com/in/muhammad-ahmad-6b6967300/"><svg
+                                    class="w-12 md:w-16" width="87" height="77" viewBox="0 0 87 77" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="87" height="77" rx="5" fill="url(#paint0_linear_2136_161)" />
+                                    <rect x="0.5" y="0.5" width="86" height="76" rx="4.5" stroke="#D9D9D9"
+                                        stroke-opacity="0.13" />
+                                    <path
+                                        d="M53 29C56.7793 29 60.4039 30.5013 63.0763 33.1737C65.7487 35.8461 67.25 39.4707 67.25 43.25V59.875H57.75V43.25C57.75 41.9902 57.2496 40.782 56.3588 39.8912C55.468 39.0004 54.2598 38.5 53 38.5C51.7402 38.5 50.532 39.0004 49.6412 39.8912C48.7504 40.782 48.25 41.9902 48.25 43.25V59.875H38.75V43.25C38.75 39.4707 40.2513 35.8461 42.9237 33.1737C45.5961 30.5013 49.2207 29 53 29Z"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M29.25 31.375H19.75V59.875H29.25V31.375Z" stroke="white" stroke-width="4"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M24.5 24.25C27.1234 24.25 29.25 22.1234 29.25 19.5C29.25 16.8766 27.1234 14.75 24.5 14.75C21.8766 14.75 19.75 16.8766 19.75 19.5C19.75 22.1234 21.8766 24.25 24.5 24.25Z"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2136_161" x1="45.2672" y1="-4.95001"
+                                            x2="33.5261" y2="-4.44296" gradientUnits="userSpaceOnUse">
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a></li>
+                        <li class="m-2"><a href="https://www.github.com/ahmadmughal6343/"><svg class="w-12 md:w-16"
+                                    width="87" height="77" viewBox="0 0 87 77" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="87" height="77" rx="5" fill="url(#paint0_linear_2136_192)" />
+                                    <rect x="0.5" y="0.5" width="86" height="76" rx="4.5" stroke="#D9D9D9"
+                                        stroke-opacity="0.13" />
+                                    <path
+                                        d="M36.375 55.1249C24.5 58.6874 24.5 49.1874 19.75 47.9999M53 62.2499V53.0587C53.0891 51.9262 52.9361 50.7877 52.5512 49.7189C52.1662 48.6501 51.5582 47.6755 50.7675 46.8599C58.225 46.0287 66.0625 43.2024 66.0625 30.2349C66.0619 26.919 64.7864 23.7303 62.5 21.3287C63.5827 18.4276 63.5061 15.221 62.2862 12.3749C62.2862 12.3749 59.4838 11.5437 53 15.8899C47.5565 14.4146 41.8185 14.4146 36.375 15.8899C29.8912 11.5437 27.0888 12.3749 27.0888 12.3749C25.8689 15.221 25.7923 18.4276 26.875 21.3287C24.5716 23.7481 23.2947 26.9656 23.3125 30.3062C23.3125 43.1787 31.15 46.0049 38.6075 46.9312C37.8261 47.7386 37.2235 48.7015 36.8389 49.7572C36.4542 50.8129 36.2962 51.9378 36.375 53.0587V62.2499"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2136_192" x1="45.2672" y1="-4.95001"
+                                            x2="33.5261" y2="-4.44296" gradientUnits="userSpaceOnUse">
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a></li>
+                        <li class="m-2"><a href="https://www.facebook.com/profile.php?id=61553615666588/"><svg
+                                    class="w-12 md:w-16" width="87" height="77" viewBox="0 0 87 77" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="87" height="77" rx="5" fill="url(#paint0_linear_2142_275)" />
+                                    <rect x="0.5" y="0.5" width="86" height="76" rx="4.5" stroke="#D9D9D9"
+                                        stroke-opacity="0.13" />
+                                    <path
+                                        d="M57.75 14.75H50.625C47.4756 14.75 44.4551 16.0011 42.2281 18.2281C40.0011 20.4551 38.75 23.4756 38.75 26.625V33.75H31.625V43.25H38.75V62.25H48.25V43.25H55.375L57.75 33.75H48.25V26.625C48.25 25.9951 48.5002 25.391 48.9456 24.9456C49.391 24.5002 49.9951 24.25 50.625 24.25H57.75V14.75Z"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2142_275" x1="45.2672" y1="-4.95001"
+                                            x2="33.5261" y2="-4.44296" gradientUnits="userSpaceOnUse">
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a></li>
+                        <li class="m-2"><a href="https://www.x.com/"><svg class="w-12 md:w-16" width="87" height="77"
+                                    viewBox="0 0 87 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="87" height="77" rx="5" fill="url(#paint0_linear_2136_196)" />
+                                    <rect x="0.5" y="0.5" width="86" height="76" rx="4.5" stroke="#D9D9D9"
+                                        stroke-opacity="0.13" />
+                                    <path
+                                        d="M69.625 17.125C67.3507 18.7292 64.8325 19.9562 62.1675 20.7587C60.7371 19.114 58.8362 17.9483 56.7217 17.4193C54.6072 16.8902 52.3813 17.0233 50.3449 17.8005C48.3086 18.5778 46.5601 19.9617 45.3358 21.765C44.1116 23.5684 43.4708 25.7043 43.5 27.8837V30.2587C39.3263 30.3669 35.1905 29.4413 31.4611 27.5641C27.7318 25.687 24.5245 22.9167 22.125 19.5C22.125 19.5 12.625 40.875 34 50.375C29.1088 53.6951 23.282 55.3599 17.375 55.125C38.75 67 64.875 55.125 64.875 27.8125C64.8728 27.1509 64.8092 26.491 64.685 25.8412C67.1089 23.4508 68.8195 20.4326 69.625 17.125Z"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2136_196" x1="45.2672" y1="-4.95001"
+                                            x2="33.5261" y2="-4.44296" gradientUnits="userSpaceOnUse">
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a></li>
+                        <li class="m-2"><a href="https://www.instagram.com/ahmadmughal1799/"><svg class="w-12 md:w-16"
+                                    width="87" height="77" viewBox="0 0 87 77" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="87" height="77" rx="5" fill="url(#paint0_linear_2136_197)" />
+                                    <rect x="0.5" y="0.5" width="86" height="76" rx="4.5" stroke="#D9D9D9"
+                                        stroke-opacity="0.13" />
+                                    <path
+                                        d="M56.5625 25.4375H56.5863M31.625 14.75H55.375C61.9334 14.75 67.25 20.0666 67.25 26.625V50.375C67.25 56.9334 61.9334 62.25 55.375 62.25H31.625C25.0666 62.25 19.75 56.9334 19.75 50.375V26.625C19.75 20.0666 25.0666 14.75 31.625 14.75ZM53 37.0037C53.2931 38.9803 52.9555 40.999 52.0352 42.7727C51.1149 44.5463 49.6587 45.9846 47.8739 46.883C46.089 47.7813 44.0663 48.094 42.0935 47.7766C40.1207 47.4591 38.2982 46.5277 36.8852 45.1148C35.4723 43.7018 34.5409 41.8793 34.2234 39.9065C33.906 37.9337 34.2187 35.911 35.117 34.1261C36.0154 32.3413 37.4537 30.8851 39.2273 29.9648C41.001 29.0445 43.0197 28.7069 44.9963 29C47.0124 29.299 48.879 30.2385 50.3203 31.6797C51.7615 33.121 52.701 34.9876 53 37.0037Z"
+                                        stroke="white" stroke-width="4" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_2136_197" x1="45.2672" y1="-4.95001"
+                                            x2="33.5261" y2="-4.44296" gradientUnits="userSpaceOnUse">
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                            <stop offset="1" stop-color="#272727" stop-opacity="0.83" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr class="opacity-[0.25]">
+    </main>
+    <footer
+        class="relative top-[8em] w-[90%] flex flex-col md:flex-row justify-between items-center mx-auto my-10 pb-8">
+        <p class="text-[12px] md:text-base leading-[30px]">2025 &copy; All Rights Reserved.</p>
+        <p class="text-[12px] font-bold md:font-normal md:text-base leading-[30px]">Developed by: Muhammad Ahmad</p>
+    </footer>
+    <script>
+        const links = document.querySelectorAll("nav a");
+        const current = window.location.pathname;
+
+        links.forEach(link => {
+            if (link.getAttribute("href") === current.split("/").pop()) {
+                link.classList.add("bg-gradient-to-r", "from-gray-600", "to-black", "px-2", "py-1", "rounded-lg");
+            }
+        });
+    </script>
+</body>
+
+</html>
